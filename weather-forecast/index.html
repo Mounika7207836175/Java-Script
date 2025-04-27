@@ -9,20 +9,24 @@
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Enter city name" spellcheck="false">
-            <button>
-            <img src="C:\Users\mouni\OneDrive\Documents\github websites repository\Java-Script\weather-forecast\images\search.png">
+            <input id="ip1" type="text" placeholder="Enter city name" spellcheck="false">
+            <button id="bt1">
+            <!-- <img src="C:\Users\mouni\OneDrive\Documents\github websites repository\Java-Script\weather-forecast\images\search.png"> -->
+             <img src="images/search.png"
             </button>
         </div>
 
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
         <div class="weather">
-            <img src="C:\Users\mouni\OneDrive\Documents\github websites repository\Java-Script\weather-forecast\images\rain.png" 
-            class="weather-icon">
+            <img src="images/rain.png"  class="weather-icon">
             <h1 class="temp">22°C</h1>
             <h2 class="city">India</h2>
             <div class="details">
                 <div class="col">
-                    <img src="C:\Users\mouni\OneDrive\Documents\github websites repository\Java-Script\weather-forecast\images\humidity.png">
+                    <img src="images/humidity.png">
                     <div>
                         <p class="humidity">50%</p>
                         <p>Humidity</p>
@@ -30,14 +34,16 @@
                 </div>
 
                 <div class="col">
-                    <img src="C:\Users\mouni\OneDrive\Documents\github websites repository\Java-Script\weather-forecast\images\wind.png">
+                    <img src="images/wind.png">
                     <div>
-                        <p class="Wind">15 km/h</p>
+                        <p class="wind">15 km/h</p>
                         <p>Wind speed</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="app.js">
+    </script>
 </body>
 </html>
