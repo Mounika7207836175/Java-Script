@@ -106,3 +106,20 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 600px) {
+    .search {
+      flex-direction: column;
+    }
+  
+    .search input {
+      margin: 0 0 10px 0;
+      width: 100%;
+    }
+  
+    .search button {
+      width: 100%;
+      border-radius: 30px;
+    }
+  }
+  
